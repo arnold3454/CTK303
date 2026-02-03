@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+  background: #7d23c7;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+#game {
+  width: 600px;
+  height: 800px;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(#e4c3d6, #e633a1);
+}
+
+#bucket {
+  width: 100px;
+  position: absolute;
+  bottom: 20px;
+  left: 150px;
+  transition: left 0.1s linear;
+}
+
+#candy {
+  width: 50px;
+  position: absolute;
+  top: -60px;
+  left: 0;
+}
